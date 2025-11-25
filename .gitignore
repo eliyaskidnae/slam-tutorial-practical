@@ -1,0 +1,25 @@
+# Ignore node_modules and dependency directories
+node_modules/
+vendor/
+
+# Ignore build artifacts
+dist/
+build/
+*.log
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and secret files
+.env
+config.json
+
+.vscode/
+
+# 
+callibration_ros1_ws/resources/*
+!callibration_ros1_ws/resources/.gitkeep
+
+callibration_ws/resources/*
+!callibration_ws/resources/.gitkeep
